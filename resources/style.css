@@ -24,25 +24,25 @@ h2 {
 .center,
 .right {
     width: 125px;
-    height: 75px;
+    min-height: 75px;
     background-color: dodgerblue;
     border: 2px solid lightgrey;
 }
 
 #flexstart {
-
+    align-items: flex-start;
 }
 
 #flexend {
-
+    align-items: flex-end;
 }
 
 #center {
-
+    align-items: center;
 }
 
 #baseline {
-
+    align-items: baseline;
 }
 
 #baseline .center {
@@ -51,6 +51,4 @@ h2 {
     border: 5px solid turquoise;
 }
 
-#stretch {
-
-}
+/* #STRETCH - Default value unless a height is specified */
